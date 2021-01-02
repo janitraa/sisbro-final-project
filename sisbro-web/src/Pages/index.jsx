@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { Flex, Wrapper, Card, Button } from './styles'
-// import {baseUrl} from '../config'
 import axios from 'axios'
 
 const Homepage = () => {
-    const baseUrl = "http://localhost:8000/api";
+    const baseUrl = "http://localhost:8080/api";
     const [text, setText] = useState('')
     
     const handlePlayPause = () => {
